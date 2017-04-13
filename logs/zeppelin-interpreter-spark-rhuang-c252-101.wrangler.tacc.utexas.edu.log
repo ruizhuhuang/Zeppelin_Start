@@ -1,0 +1,212 @@
+ INFO [2017-04-13 13:37:21,447] ({Thread-0} RemoteInterpreterServer.java[run]:95) - Starting remote interpreter server on port 43315
+ INFO [2017-04-13 13:37:23,683] ({pool-1-thread-3} RemoteInterpreterServer.java[createInterpreter]:190) - Instantiate interpreter org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2017-04-13 13:37:23,805] ({pool-1-thread-3} RemoteInterpreterServer.java[createInterpreter]:190) - Instantiate interpreter org.apache.zeppelin.spark.SparkSqlInterpreter
+ INFO [2017-04-13 13:37:23,833] ({pool-1-thread-3} RemoteInterpreterServer.java[createInterpreter]:190) - Instantiate interpreter org.apache.zeppelin.spark.DepInterpreter
+ INFO [2017-04-13 13:37:23,914] ({pool-1-thread-3} RemoteInterpreterServer.java[createInterpreter]:190) - Instantiate interpreter org.apache.zeppelin.spark.PySparkInterpreter
+ INFO [2017-04-13 13:37:23,925] ({pool-1-thread-3} RemoteInterpreterServer.java[createInterpreter]:190) - Instantiate interpreter org.apache.zeppelin.spark.SparkRInterpreter
+ INFO [2017-04-13 13:37:24,252] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1492108644240 started by scheduler org.apache.zeppelin.spark.SparkInterpreter2145748991
+ INFO [2017-04-13 13:37:42,366] ({pool-2-thread-4} SparkInterpreter.java[createSparkSession]:318) - ------ Create new SparkContext yarn-client -------
+ INFO [2017-04-13 13:37:44,896] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Running Spark version 2.1.0
+ WARN [2017-04-13 13:37:46,752] ({pool-2-thread-4} NativeCodeLoader.java[<clinit>]:62) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+ WARN [2017-04-13 13:37:47,280] ({pool-2-thread-4} Logging.scala[logWarning]:66) - spark.master yarn-client is deprecated in Spark 2.0+, please instead use "yarn" with specified deploy mode.
+ INFO [2017-04-13 13:37:47,518] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Changing view acls to: rhuang
+ INFO [2017-04-13 13:37:47,523] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Changing modify acls to: rhuang
+ INFO [2017-04-13 13:37:47,527] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Changing view acls groups to: 
+ INFO [2017-04-13 13:37:47,531] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Changing modify acls groups to: 
+ INFO [2017-04-13 13:37:47,535] ({pool-2-thread-4} Logging.scala[logInfo]:54) - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(rhuang); groups with view permissions: Set(); users  with modify permissions: Set(rhuang); groups with modify permissions: Set()
+ INFO [2017-04-13 13:37:50,592] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Successfully started service 'sparkDriver' on port 55493.
+ INFO [2017-04-13 13:37:50,737] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Registering MapOutputTracker
+ INFO [2017-04-13 13:37:50,886] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Registering BlockManagerMaster
+ INFO [2017-04-13 13:37:50,908] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+ INFO [2017-04-13 13:37:50,911] ({pool-2-thread-4} Logging.scala[logInfo]:54) - BlockManagerMasterEndpoint up
+ INFO [2017-04-13 13:37:50,992] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Created local directory at /tmp/blockmgr-8576f124-8336-4953-847d-282b8b74bc83
+ INFO [2017-04-13 13:37:51,072] ({pool-2-thread-4} Logging.scala[logInfo]:54) - MemoryStore started with capacity 2004.6 MB
+ INFO [2017-04-13 13:37:51,877] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Registering OutputCommitCoordinator
+ INFO [2017-04-13 13:37:52,409] ({pool-2-thread-4} Log.java[initialized]:186) - Logging initialized @41354ms
+ INFO [2017-04-13 13:37:53,090] ({pool-2-thread-4} Server.java[doStart]:327) - jetty-9.2.z-SNAPSHOT
+ INFO [2017-04-13 13:37:53,205] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@94acc96{/jobs,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,207] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@4d6489d0{/jobs/json,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,210] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@51ac683{/jobs/job,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,212] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@d5474b7{/jobs/job/json,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,214] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@52a537f7{/stages,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,216] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@3be61e7a{/stages/json,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,218] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@681be95b{/stages/stage,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,220] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@46c4c923{/stages/stage/json,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,223] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@3da54483{/stages/pool,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,226] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@36bb8883{/stages/pool/json,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,228] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@1ddfe3e{/storage,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,230] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@61b0b2f7{/storage/json,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,232] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@76a6631e{/storage/rdd,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,234] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@1c3312d9{/storage/rdd/json,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,237] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@7271236f{/environment,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,239] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@16b210dc{/environment/json,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,241] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@53c93f87{/executors,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,243] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@57685afd{/executors/json,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,245] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@2c797124{/executors/threadDump,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,248] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@2acba087{/executors/threadDump/json,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,289] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@3064975e{/static,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,291] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@254e8c1d{/,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,297] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@42d929c1{/api,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,299] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@35617685{/jobs/job/kill,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,301] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@212bc910{/stages/stage/kill,null,AVAILABLE}
+ INFO [2017-04-13 13:37:53,344] ({pool-2-thread-4} AbstractConnector.java[doStart]:266) - Started ServerConnector@745f0b9b{HTTP/1.1}{0.0.0.0:4040}
+ INFO [2017-04-13 13:37:53,355] ({pool-2-thread-4} Server.java[doStart]:379) - Started @42295ms
+ INFO [2017-04-13 13:37:53,357] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Successfully started service 'SparkUI' on port 4040.
+ INFO [2017-04-13 13:37:53,380] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Bound SparkUI to 0.0.0.0, and started at http://129.114.58.144:4040
+ INFO [2017-04-13 13:37:53,518] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Added JAR file:/data/apps/zeppelin-0.7.1-bin-all/interpreter/spark/zeppelin-spark_2.11-0.7.1.jar at spark://129.114.58.144:55493/jars/zeppelin-spark_2.11-0.7.1.jar with timestamp 1492108673515
+ INFO [2017-04-13 13:37:53,803] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Created default pool default, schedulingMode: FIFO, minShare: 0, weight: 1
+ INFO [2017-04-13 13:37:59,184] ({pool-2-thread-4} RMProxy.java[createRMProxy]:98) - Connecting to ResourceManager at c252-101.wrangler.tacc.utexas.edu/129.114.58.144:8032
+ INFO [2017-04-13 13:38:01,324] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Requesting a new application from cluster with 3 NodeManagers
+ INFO [2017-04-13 13:38:01,650] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Verifying our application has not requested more than the maximum memory capability of the cluster (61440 MB per container)
+ INFO [2017-04-13 13:38:01,655] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Will allocate AM container, with 896 MB memory including 384 MB overhead
+ INFO [2017-04-13 13:38:01,658] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Setting up container launch context for our AM
+ INFO [2017-04-13 13:38:01,688] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Setting up the launch environment for our AM container
+ INFO [2017-04-13 13:38:01,759] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Preparing resources for our AM container
+ WARN [2017-04-13 13:38:05,721] ({pool-2-thread-4} Logging.scala[logWarning]:66) - Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+ INFO [2017-04-13 13:38:23,198] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Uploading resource file:/tmp/spark-676eccf4-f0f4-44ca-b282-3b35563db758/__spark_libs__4733915458347618973.zip -> hdfs://c252-101.wrangler.tacc.utexas.edu:8020/user/rhuang/.sparkStaging/application_1491838749860_0026/__spark_libs__4733915458347618973.zip
+ INFO [2017-04-13 13:38:28,030] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Uploading resource file:/data/apps/spark-2.1.0-bin-hadoop2.7/python/lib/pyspark.zip -> hdfs://c252-101.wrangler.tacc.utexas.edu:8020/user/rhuang/.sparkStaging/application_1491838749860_0026/pyspark.zip
+ INFO [2017-04-13 13:38:28,254] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Uploading resource file:/data/apps/spark-2.1.0-bin-hadoop2.7/python/lib/py4j-0.10.4-src.zip -> hdfs://c252-101.wrangler.tacc.utexas.edu:8020/user/rhuang/.sparkStaging/application_1491838749860_0026/py4j-0.10.4-src.zip
+ INFO [2017-04-13 13:38:28,336] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Uploading resource file:/data/apps/spark-2.1.0-bin-hadoop2.7/R/lib/sparkr.zip#sparkr -> hdfs://c252-101.wrangler.tacc.utexas.edu:8020/user/rhuang/.sparkStaging/application_1491838749860_0026/sparkr.zip
+ WARN [2017-04-13 13:38:28,471] ({pool-2-thread-4} Logging.scala[logWarning]:66) - Same path resource file:/data/apps/spark-2.1.0-bin-hadoop2.7/python/lib/pyspark.zip added multiple times to distributed cache.
+ WARN [2017-04-13 13:38:28,473] ({pool-2-thread-4} Logging.scala[logWarning]:66) - Same path resource file:/data/apps/spark-2.1.0-bin-hadoop2.7/python/lib/py4j-0.10.4-src.zip added multiple times to distributed cache.
+ WARN [2017-04-13 13:38:28,480] ({pool-2-thread-4} Logging.scala[logWarning]:66) - Same path resource file:/data/apps/spark-2.1.0-bin-hadoop2.7/python/lib/pyspark.zip added multiple times to distributed cache.
+ WARN [2017-04-13 13:38:28,482] ({pool-2-thread-4} Logging.scala[logWarning]:66) - Same path resource file:/data/apps/spark-2.1.0-bin-hadoop2.7/python/lib/py4j-0.10.4-src.zip added multiple times to distributed cache.
+ INFO [2017-04-13 13:38:28,616] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Uploading resource file:/tmp/spark-676eccf4-f0f4-44ca-b282-3b35563db758/__spark_conf__88376362258110083.zip -> hdfs://c252-101.wrangler.tacc.utexas.edu:8020/user/rhuang/.sparkStaging/application_1491838749860_0026/__spark_conf__.zip
+ INFO [2017-04-13 13:38:28,829] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Changing view acls to: rhuang
+ INFO [2017-04-13 13:38:28,832] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Changing modify acls to: rhuang
+ INFO [2017-04-13 13:38:28,834] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Changing view acls groups to: 
+ INFO [2017-04-13 13:38:28,835] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Changing modify acls groups to: 
+ INFO [2017-04-13 13:38:28,837] ({pool-2-thread-4} Logging.scala[logInfo]:54) - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(rhuang); groups with view permissions: Set(); users  with modify permissions: Set(rhuang); groups with modify permissions: Set()
+ INFO [2017-04-13 13:38:28,885] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Submitting application application_1491838749860_0026 to ResourceManager
+ INFO [2017-04-13 13:38:29,108] ({pool-2-thread-4} YarnClientImpl.java[submitApplication]:273) - Submitted application application_1491838749860_0026
+ INFO [2017-04-13 13:38:29,124] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Starting Yarn extension services with app application_1491838749860_0026 and attemptId None
+ INFO [2017-04-13 13:38:30,166] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:30,189] ({pool-2-thread-4} Logging.scala[logInfo]:54) - 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: root.rhuang
+	 start time: 1492108708987
+	 final status: UNDEFINED
+	 tracking URL: http://c252-101.wrangler.tacc.utexas.edu:8088/proxy/application_1491838749860_0026/
+	 user: rhuang
+ INFO [2017-04-13 13:38:31,194] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:32,199] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:33,204] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:34,209] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:35,213] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:36,218] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:37,222] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:38,227] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:39,231] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:40,236] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:41,240] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:42,245] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:43,249] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:44,257] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:45,262] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:46,266] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:47,271] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:48,275] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:49,280] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:50,284] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:51,289] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:52,293] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:53,303] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:54,309] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:54,368] ({dispatcher-event-loop-14} Logging.scala[logInfo]:54) - ApplicationMaster registered as NettyRpcEndpointRef(null)
+ INFO [2017-04-13 13:38:54,449] ({dispatcher-event-loop-15} Logging.scala[logInfo]:54) - Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> c252-101.wrangler.tacc.utexas.edu, PROXY_URI_BASES -> http://c252-101.wrangler.tacc.utexas.edu:8088/proxy/application_1491838749860_0026), /proxy/application_1491838749860_0026
+ INFO [2017-04-13 13:38:54,459] ({dispatcher-event-loop-15} Logging.scala[logInfo]:54) - Adding filter: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+ INFO [2017-04-13 13:38:55,314] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: ACCEPTED)
+ INFO [2017-04-13 13:38:56,321] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application report for application_1491838749860_0026 (state: RUNNING)
+ INFO [2017-04-13 13:38:56,323] ({pool-2-thread-4} Logging.scala[logInfo]:54) - 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 129.114.58.145
+	 ApplicationMaster RPC port: 0
+	 queue: root.rhuang
+	 start time: 1492108708987
+	 final status: UNDEFINED
+	 tracking URL: http://c252-101.wrangler.tacc.utexas.edu:8088/proxy/application_1491838749860_0026/
+	 user: rhuang
+ INFO [2017-04-13 13:38:56,327] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Application application_1491838749860_0026 has started running.
+ INFO [2017-04-13 13:38:56,372] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 39247.
+ INFO [2017-04-13 13:38:56,377] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Server created on 129.114.58.144:39247
+ INFO [2017-04-13 13:38:56,387] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+ INFO [2017-04-13 13:38:56,400] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Registering BlockManager BlockManagerId(driver, 129.114.58.144, 39247, None)
+ INFO [2017-04-13 13:38:56,423] ({dispatcher-event-loop-19} Logging.scala[logInfo]:54) - Registering block manager 129.114.58.144:39247 with 2004.6 MB RAM, BlockManagerId(driver, 129.114.58.144, 39247, None)
+ INFO [2017-04-13 13:38:56,458] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Registered BlockManager BlockManagerId(driver, 129.114.58.144, 39247, None)
+ INFO [2017-04-13 13:38:56,462] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Initialized BlockManager: BlockManagerId(driver, 129.114.58.144, 39247, None)
+ INFO [2017-04-13 13:38:57,688] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@4fb7ed1e{/metrics/json,null,AVAILABLE}
+ INFO [2017-04-13 13:38:57,759] ({pool-2-thread-4} Logging.scala[logInfo]:54) - SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime: 30000(ms)
+ INFO [2017-04-13 13:38:57,950] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Warehouse path is 'file:/data/03076/rhuang/twitter/spark-warehouse'.
+ INFO [2017-04-13 13:38:57,990] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@240f68ec{/SQL,null,AVAILABLE}
+ INFO [2017-04-13 13:38:57,994] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@7c6cb62f{/SQL/json,null,AVAILABLE}
+ INFO [2017-04-13 13:38:57,999] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@1890b2c2{/SQL/execution,null,AVAILABLE}
+ INFO [2017-04-13 13:38:58,003] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@7dbdb059{/SQL/execution/json,null,AVAILABLE}
+ INFO [2017-04-13 13:38:58,012] ({pool-2-thread-4} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@4b8f9717{/static/sql,null,AVAILABLE}
+ INFO [2017-04-13 13:38:58,285] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+ INFO [2017-04-13 13:39:02,131] ({pool-2-thread-4} HiveMetaStore.java[newRawStore]:589) - 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+ INFO [2017-04-13 13:39:02,313] ({pool-2-thread-4} ObjectStore.java[initialize]:289) - ObjectStore, initialize called
+ INFO [2017-04-13 13:39:03,064] ({pool-2-thread-4} Log4JLogger.java[info]:77) - Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+ INFO [2017-04-13 13:39:03,067] ({pool-2-thread-4} Log4JLogger.java[info]:77) - Property datanucleus.cache.level2 unknown - will be ignored
+ INFO [2017-04-13 13:39:11,732] ({dispatcher-event-loop-27} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.145:37856) with ID 1
+ INFO [2017-04-13 13:39:11,820] ({dispatcher-event-loop-27} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.145:37855) with ID 4
+ INFO [2017-04-13 13:39:12,040] ({dispatcher-event-loop-31} Logging.scala[logInfo]:54) - Registering block manager c252-102.wrangler.tacc.utexas.edu:33807 with 366.3 MB RAM, BlockManagerId(1, c252-102.wrangler.tacc.utexas.edu, 33807, None)
+ INFO [2017-04-13 13:39:12,103] ({dispatcher-event-loop-35} Logging.scala[logInfo]:54) - Registering block manager c252-102.wrangler.tacc.utexas.edu:35528 with 366.3 MB RAM, BlockManagerId(4, c252-102.wrangler.tacc.utexas.edu, 35528, None)
+ INFO [2017-04-13 13:39:12,874] ({dispatcher-event-loop-33} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.145:37858) with ID 7
+ INFO [2017-04-13 13:39:13,153] ({dispatcher-event-loop-47} Logging.scala[logInfo]:54) - Registering block manager c252-102.wrangler.tacc.utexas.edu:54716 with 366.3 MB RAM, BlockManagerId(7, c252-102.wrangler.tacc.utexas.edu, 54716, None)
+ INFO [2017-04-13 13:39:16,425] ({dispatcher-event-loop-45} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.145:37862) with ID 10
+ INFO [2017-04-13 13:39:16,727] ({dispatcher-event-loop-3} Logging.scala[logInfo]:54) - Registering block manager c252-102.wrangler.tacc.utexas.edu:52042 with 366.3 MB RAM, BlockManagerId(10, c252-102.wrangler.tacc.utexas.edu, 52042, None)
+ INFO [2017-04-13 13:39:16,990] ({pool-2-thread-4} ObjectStore.java[getPMF]:370) - Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+ INFO [2017-04-13 13:39:18,416] ({dispatcher-event-loop-32} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.146:43274) with ID 3
+ INFO [2017-04-13 13:39:18,444] ({dispatcher-event-loop-27} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.147:57275) with ID 5
+ INFO [2017-04-13 13:39:18,495] ({dispatcher-event-loop-34} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.146:43275) with ID 12
+ INFO [2017-04-13 13:39:18,516] ({dispatcher-event-loop-43} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.147:57276) with ID 11
+ INFO [2017-04-13 13:39:18,570] ({dispatcher-event-loop-47} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.147:57277) with ID 2
+ INFO [2017-04-13 13:39:18,674] ({dispatcher-event-loop-42} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.147:57278) with ID 8
+ INFO [2017-04-13 13:39:18,708] ({dispatcher-event-loop-45} Logging.scala[logInfo]:54) - Registering block manager c252-104.wrangler.tacc.utexas.edu:39649 with 366.3 MB RAM, BlockManagerId(5, c252-104.wrangler.tacc.utexas.edu, 39649, None)
+ INFO [2017-04-13 13:39:18,715] ({dispatcher-event-loop-36} Logging.scala[logInfo]:54) - Registering block manager c252-103.wrangler.tacc.utexas.edu:33681 with 366.3 MB RAM, BlockManagerId(3, c252-103.wrangler.tacc.utexas.edu, 33681, None)
+ INFO [2017-04-13 13:39:18,766] ({dispatcher-event-loop-2} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.146:43276) with ID 9
+ INFO [2017-04-13 13:39:18,781] ({dispatcher-event-loop-46} Logging.scala[logInfo]:54) - Registering block manager c252-103.wrangler.tacc.utexas.edu:54105 with 366.3 MB RAM, BlockManagerId(12, c252-103.wrangler.tacc.utexas.edu, 54105, None)
+ INFO [2017-04-13 13:39:18,815] ({dispatcher-event-loop-1} Logging.scala[logInfo]:54) - Registering block manager c252-104.wrangler.tacc.utexas.edu:49991 with 366.3 MB RAM, BlockManagerId(11, c252-104.wrangler.tacc.utexas.edu, 49991, None)
+ INFO [2017-04-13 13:39:18,838] ({dispatcher-event-loop-10} Logging.scala[logInfo]:54) - Registering block manager c252-104.wrangler.tacc.utexas.edu:39987 with 366.3 MB RAM, BlockManagerId(2, c252-104.wrangler.tacc.utexas.edu, 39987, None)
+ INFO [2017-04-13 13:39:18,971] ({dispatcher-event-loop-9} Logging.scala[logInfo]:54) - Registering block manager c252-104.wrangler.tacc.utexas.edu:45301 with 366.3 MB RAM, BlockManagerId(8, c252-104.wrangler.tacc.utexas.edu, 45301, None)
+ INFO [2017-04-13 13:39:18,987] ({dispatcher-event-loop-12} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(null) (129.114.58.146:43277) with ID 6
+ INFO [2017-04-13 13:39:19,057] ({dispatcher-event-loop-16} Logging.scala[logInfo]:54) - Registering block manager c252-103.wrangler.tacc.utexas.edu:47296 with 366.3 MB RAM, BlockManagerId(9, c252-103.wrangler.tacc.utexas.edu, 47296, None)
+ INFO [2017-04-13 13:39:19,273] ({dispatcher-event-loop-19} Logging.scala[logInfo]:54) - Registering block manager c252-103.wrangler.tacc.utexas.edu:50400 with 366.3 MB RAM, BlockManagerId(6, c252-103.wrangler.tacc.utexas.edu, 50400, None)
+ INFO [2017-04-13 13:39:23,827] ({pool-2-thread-4} Log4JLogger.java[info]:77) - The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+ INFO [2017-04-13 13:39:23,834] ({pool-2-thread-4} Log4JLogger.java[info]:77) - The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+ INFO [2017-04-13 13:39:24,892] ({pool-2-thread-4} Log4JLogger.java[info]:77) - The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+ INFO [2017-04-13 13:39:24,896] ({pool-2-thread-4} Log4JLogger.java[info]:77) - The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+ INFO [2017-04-13 13:39:25,444] ({pool-2-thread-4} Log4JLogger.java[info]:77) - Reading in results for query "org.datanucleus.store.rdbms.query.SQLQuery@0" since the connection used is closing
+ INFO [2017-04-13 13:39:25,460] ({pool-2-thread-4} MetaStoreDirectSql.java[<init>]:139) - Using direct SQL, underlying DB is DERBY
+ INFO [2017-04-13 13:39:25,478] ({pool-2-thread-4} ObjectStore.java[setConf]:272) - Initialized ObjectStore
+ INFO [2017-04-13 13:39:26,745] ({pool-2-thread-4} HiveMetaStore.java[createDefaultRoles_core]:663) - Added admin role in metastore
+ INFO [2017-04-13 13:39:26,754] ({pool-2-thread-4} HiveMetaStore.java[createDefaultRoles_core]:672) - Added public role in metastore
+ INFO [2017-04-13 13:39:27,012] ({pool-2-thread-4} HiveMetaStore.java[addAdminUsers_core]:712) - No user is added in admin role, since config is empty
+ INFO [2017-04-13 13:39:27,703] ({pool-2-thread-4} HiveMetaStore.java[logInfo]:746) - 0: get_all_databases
+ INFO [2017-04-13 13:39:27,716] ({pool-2-thread-4} HiveMetaStore.java[logAuditEvent]:371) - ugi=rhuang	ip=unknown-ip-addr	cmd=get_all_databases	
+ INFO [2017-04-13 13:39:27,830] ({pool-2-thread-4} HiveMetaStore.java[logInfo]:746) - 0: get_functions: db=default pat=*
+ INFO [2017-04-13 13:39:27,832] ({pool-2-thread-4} HiveMetaStore.java[logAuditEvent]:371) - ugi=rhuang	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+ INFO [2017-04-13 13:39:27,839] ({pool-2-thread-4} Log4JLogger.java[info]:77) - The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+ INFO [2017-04-13 13:39:28,251] ({pool-2-thread-4} SessionState.java[createPath]:641) - Created local directory: /tmp/7b02b2e6-6810-4055-aada-79d23f38e182_resources
+ INFO [2017-04-13 13:39:28,263] ({pool-2-thread-4} SessionState.java[createPath]:641) - Created HDFS directory: /tmp/hive/rhuang/7b02b2e6-6810-4055-aada-79d23f38e182
+ INFO [2017-04-13 13:39:28,288] ({pool-2-thread-4} SessionState.java[createPath]:641) - Created local directory: /tmp/rhuang/7b02b2e6-6810-4055-aada-79d23f38e182
+ INFO [2017-04-13 13:39:28,298] ({pool-2-thread-4} SessionState.java[createPath]:641) - Created HDFS directory: /tmp/hive/rhuang/7b02b2e6-6810-4055-aada-79d23f38e182/_tmp_space.db
+ INFO [2017-04-13 13:39:28,310] ({pool-2-thread-4} Logging.scala[logInfo]:54) - Warehouse location for Hive client (version 1.2.1) is file:/data/03076/rhuang/twitter/spark-warehouse
+ INFO [2017-04-13 13:39:28,372] ({pool-2-thread-4} HiveMetaStore.java[logInfo]:746) - 0: get_database: default
+ INFO [2017-04-13 13:39:28,374] ({pool-2-thread-4} HiveMetaStore.java[logAuditEvent]:371) - ugi=rhuang	ip=unknown-ip-addr	cmd=get_database: default	
+ INFO [2017-04-13 13:39:28,399] ({pool-2-thread-4} HiveMetaStore.java[logInfo]:746) - 0: get_database: global_temp
+ INFO [2017-04-13 13:39:28,401] ({pool-2-thread-4} HiveMetaStore.java[logAuditEvent]:371) - ugi=rhuang	ip=unknown-ip-addr	cmd=get_database: global_temp	
+ WARN [2017-04-13 13:39:28,406] ({pool-2-thread-4} ObjectStore.java[getDatabase]:568) - Failed to get database global_temp, returning NoSuchObjectException
+ INFO [2017-04-13 13:39:28,438] ({pool-2-thread-4} SparkInterpreter.java[createSparkSession]:362) - Created Spark session with Hive support
+ INFO [2017-04-13 13:39:49,141] ({pool-2-thread-4} SparkInterpreter.java[populateSparkWebUrl]:985) - Sending metainfos to Zeppelin server: {url=http://129.114.58.144:4040}
+ INFO [2017-04-13 13:39:49,900] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1492108644240 finished by scheduler org.apache.zeppelin.spark.SparkInterpreter2145748991
+ INFO [2017-04-13 13:40:10,509] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1492108810508 started by scheduler org.apache.zeppelin.spark.SparkInterpreter2145748991
+ INFO [2017-04-13 13:40:10,875] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1492108810508 finished by scheduler org.apache.zeppelin.spark.SparkInterpreter2145748991
+ INFO [2017-04-13 13:40:47,400] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1492108847399 started by scheduler org.apache.zeppelin.spark.SparkInterpreter2145748991
+ INFO [2017-04-13 13:40:48,127] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1492108847399 finished by scheduler org.apache.zeppelin.spark.SparkInterpreter2145748991
+ INFO [2017-04-13 13:40:50,122] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1492108850121 started by scheduler org.apache.zeppelin.spark.SparkInterpreter2145748991
+ INFO [2017-04-13 13:40:50,253] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1492108850121 finished by scheduler org.apache.zeppelin.spark.SparkInterpreter2145748991

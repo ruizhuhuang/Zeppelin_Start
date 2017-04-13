@@ -1,0 +1,6 @@
+ INFO [2017-04-13 13:41:00,881] ({Thread-0} RemoteInterpreterServer.java[run]:95) - Starting remote interpreter server on port 46531
+ INFO [2017-04-13 13:41:01,822] ({pool-1-thread-3} RemoteInterpreterServer.java[createInterpreter]:190) - Instantiate interpreter org.apache.zeppelin.shell.ShellInterpreter
+ INFO [2017-04-13 13:41:02,206] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1492108862195 started by scheduler org.apache.zeppelin.shell.ShellInterpreter1411947231
+ INFO [2017-04-13 13:41:02,226] ({pool-2-thread-2} ShellInterpreter.java[open]:60) - Command timeout property: 60000
+ INFO [2017-04-13 13:41:10,084] ({pool-2-thread-2} ShellInterpreter.java[interpret]:92) - Paragraph 20170413-133707_1524041306 return with exit value: 0
+ INFO [2017-04-13 13:41:10,095] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1492108862195 finished by scheduler org.apache.zeppelin.shell.ShellInterpreter1411947231
